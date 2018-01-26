@@ -19,7 +19,7 @@ video {
 
 for f in *.webm;
 do
-	echo "<video controls autoplay preload='none' loop>
+	echo "<video controls muted autoplay preload='none' loop>
 		  <source src='$f' type='video/webm' >
 	      </video>
 	" >> index.html
